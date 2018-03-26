@@ -1,0 +1,274 @@
+body {
+	font-family: 'Advent Pro';
+	background-image: url("../images/bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+	color: white;
+	text-align: center;
+    font-family: 'Advent Pro';
+    font-size: 80px;
+    margin-top: 0px;
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Advent Pro';
+    font-size: 30px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  border-bottom: solid 3px white;
+  color: white;
+}
+
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (min-width: 1100px){
+    .topnav {
+    position: fixed;
+}
+}
+
+@media screen and (max-width: 1100px) {
+
+.topnav a {
+    font-size: 48px;
+}
+  .topnav a:not(.active) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    font-size: 48px;
+  }
+  body {
+    font-family: 'Advent Pro';
+    background-image: url("images/bgs.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 48px;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 48px;
+  }
+}
+
+.para {
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 35px;
+}
+.trans {
+    background-color: rgba(0, 0, 0, .2);
+    margin-top: 80px;
+}
+.transa {
+    background-color: rgba(0, 0, 0, .2);
+    margin-top: 80px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+/*Form Elements*/
+input:invalid {
+  border: 2px red;
+}
+
+input[type=text], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-self: center;
+}
+
+input[type=password], input[type=number] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-self: center;
+}
+
+button, input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 26px;
+    color: white;
+}
+.form {
+    background-color: rgba(0, 0, 0, .2);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/*--------------------------*/
+
+.error {
+    font-size: 18px;
+    color: red;
+}
+/*profile picture animation*/
+/*.profile {
+    border-radius: 50%;
+}
+*/
+div.polaroid {
+  width: 250px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/* back to top button */
+#myBtn {
+    width: 40px;
+    height: 40px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #DDD;
+    color: #555;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 0px; /* Some padding */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 36px; /* Increase font size */
+    text-align: center;
+}
+
+#myBtn:hover {
+    background-color: #DDF;
+    color: #000;
+}
+
+table {
+    width: 100%;
+}
+td {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+th {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.reg {
+    width: 100%;
+    font-size: 36px;
+    font-family: 'Advent Pro';
+    height: 50%;
+}
+
+.team {
+    max-width: 60%;
+    margin-left: 20%;
+}
+.col {
+    float: left;
+    width: 31%;
+    padding: 10px;
+    height: 900px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .col {
+        width: 100%;
+    }
+}
+.footer {
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+td a {
+    color: white;
+    text-decoration: none;
+}
