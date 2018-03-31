@@ -10,4 +10,4 @@ This website is made by beginners and hence can easily be understood by those wh
 The admin accounts are hardcoded in database. You can remove the default account by deleting the entry in `admins` table. Likewise to add a admin account register it as simple user and then put it's username in `admins` table.
 
 ### Installation
-For setting up your website see [INSTALLATION.md](https://www.github.com/prmsrswt/euphoria/INSTALLATION.md)
+For setting up your website see [INSTALLATION.md](https://www.github.com/prmsrswt/euphoria/blob/master/INSTALLATION.md)
