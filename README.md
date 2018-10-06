@@ -10,4 +10,13 @@ This website is made by beginners and hence can easily be understood by those wh
 The admin accounts are hardcoded in database. You can remove the default account by deleting the entry in `admins` table. Likewise to add a admin account register it as simple user and then put it's username in `admins` table.
 
 ### Installation
-For setting up your website see [INSTALLATION.md](https://www.github.com/prmsrswt/euphoria/blob/master/INSTALLATION.md)
+1. Copy the files in your web server's root directory.
+2. Create a database in your Mysql DB server.
+3. Import `tables.sql` in the database you created using phpmyadmin or any tool you prefer.
+4. Edit `config.php` for correct settings and you are good to go.
+5. admin accounts are hardcoded in admins table of database. You can edit them using phpmyadmin.
+6. default admin account:
+	`username: kamaln`
+	`password: kamaln`
+
+
